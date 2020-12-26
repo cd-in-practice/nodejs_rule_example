@@ -1,0 +1,14 @@
+{
+    "name": "nodejs_rule_example",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@bazel/bazelisk": "1.7.3",
+        "@bazel/ibazel": "0.14.0",
+        "@bazel/buildifier": "3.5.0"
+    },
+    "scripts": {
+        "build": "bazel build //...",
+        "test": "bazel test //..."
+    }
+}
